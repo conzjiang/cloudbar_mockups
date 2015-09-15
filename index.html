@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+    /* soundcloud orange #F76700 */
+    #dark {
+      font-weight: 300;
+      color: #f1f0f0;
+      background: #1c1615;
+    }
+
+
+    /* INPUT */
+    #dark input {
+      text-transform: uppercase;
+      background: transparent;
+      border-bottom: 2px solid #312F2F;
+      border-radius: 0;
+    }
+
+    #dark fieldset:after {
+      bottom: 10px;
+      right: 10px;
+      padding: 0;
+      font-size: 18px;
+      line-height: 1.4;
+      color: #aaa;
+      background: none;
+      border-radius: 0;
+    }
+
+    /* NAV */
+    #tropical .nav > li {
+      background: #0FCB80;
+    }
+
+    #tropical .nav > li:hover {
+      background: #FF6E40;
+    }
+
+    #tropical .nav > li.selected {
+      background: #FF6E40;
+    }
+
+
+    #gradient .nav > li {
+      background: #f6912d;
+    }
+
+    #gradient .nav > li:hover {
+      background: linear-gradient(0deg, #db0e05, #f6912d);
+    }
+
+    #gradient .nav > li:active {
+      background: #db0e05;
+    }
+
+    #gradient .nav > li.selected {
+      color: #fff;
+      background: linear-gradient(0deg, #db0e05, #f6912d);
+    }
+
+
+    #dark .tabs > li {
+      background: #312F2F;
+    }
+
+    #dark nav {
+      background: #FF5D24;
+    }
+
+    #dark .nav > li:hover {
+      background: #F74000;
+    }
+
+    #dark .nav > li.selected {
+      background: linear-gradient(0deg, #CF330F, #FB4113);
+    }
+
+
+
+    /* RESULTS */
+    #tropical .results > li:hover {
+      padding-bottom: 17px;
+      border-bottom: 3px solid #FF6E40;
+      background: #fff;
+    }
+
+
+    #gradient .results > li:hover {
+      box-shadow: 0 1px 3px #aaa;
+    }
+
+    #gradient .results > li:active {
+      position: relative;
+      box-shadow: none;
+      top: 1px;
+    }
+
+
+    #dark .results > li {
+      background: #312F2F;
+    }
+
+    #dark .results > li:hover {
+      color: #1c1615;
+      background: #F74000;
+    }
+
+    #dark .results > li:hover small {
+      color: #761F01;
+    }
+    </style>
+  </head>
+
+  <body>
+    <section class="theme">
+      <h1>Gradient</h1>
+
+      <main id="gradient">
+        <section class="content">
+          <fieldset>
+            <input type="text" placeholder="search">
+          </fieldset>
+
+          <ul class="tabs nav group">
+            <li class="selected">Tracks</li>
+            <li>Users</li>
+            <li>Playlists</li>
+          </ul>
+
+          <ul class="results">
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <nav>
+          <ul class="sticky-nav nav group">
+            <li class="selected">S</li>
+            <li>P</li>
+            <li>L</li>
+            <li>C</li>
+          </ul>
+        </nav>
+      </main>
+    </section>
+
+
+
+
+    <section class="theme">
+      <h1>Tropical</h1>
+
+      <main id="tropical">
+        <section class="content">
+          <fieldset>
+            <input type="text" placeholder="search">
+          </fieldset>
+
+          <ul class="tabs nav group">
+            <li class="selected">Tracks</li>
+            <li>Users</li>
+            <li>Playlists</li>
+          </ul>
+
+          <ul class="results">
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <nav>
+          <ul class="sticky-nav nav group">
+            <li class="selected">S</li>
+            <li>P</li>
+            <li>L</li>
+            <li>C</li>
+          </ul>
+        </nav>
+      </main>
+    </section>
+
+
+
+
+    <section class="theme">
+      <h1>Dark</h1>
+
+      <main id="dark">
+        <section class="content">
+          <fieldset>
+            <input type="text" placeholder="search">
+          </fieldset>
+
+          <ul class="tabs nav group">
+            <li class="selected">Tracks</li>
+            <li>Users</li>
+            <li>Playlists</li>
+          </ul>
+
+          <ul class="results">
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+
+            <li class="group">
+              <figure>
+                <img src="./album.JPG">
+              </figure>
+
+              <article class="track-info">
+                <h3>Track Title</h3>
+                <h4>Artist</h4>
+                <small>Play Count: 1,000,000</small>
+              </article>
+            </li>
+          </ul>
+        </section>
+
+        <nav>
+          <ul class="sticky-nav nav group">
+            <li class="selected">S</li>
+            <li>P</li>
+            <li>L</li>
+            <li>C</li>
+          </ul>
+        </nav>
+      </main>
+    </section>
+
+  </body>
+</html>
